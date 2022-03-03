@@ -2,9 +2,6 @@ const express = require("express");
 const fileUpload = require("express-fileupload");
 const app = express();
 
-const fs = require("fs"),
-  PDFParser = require("pdf2json");
-
 app.use(fileUpload());
 
 // Upload Endpoint

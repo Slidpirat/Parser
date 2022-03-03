@@ -88,17 +88,5 @@ const FileUpload = () => {
   );
 };
 
-// Pdf parse attempt
-
-// const pdf = require("pdf.js");
-// PDFJS.getDocument("document.pdf").then(function (pdf) {
-//   pdf.getPage(1).then(function (page) {
-//     page.getTextContent().then(function (txt) {
-//       const arrayOfText = items.map(function (item) {
-//         return item.str;
-//       });
-//     });
-//   });
-// });
 
 export default FileUpload;
